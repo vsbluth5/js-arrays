@@ -19,6 +19,22 @@ for (int i = start; test which returns true until finished; change i to get clos
 }
 
 
+Object iteration first method:
+
+v// First collect the issues in an array:
+let issues = Object.keys(treatments)
+// At this point, issues should be the array ["sunburn", "dehydration", "headache"]
+
+// Then, iterate as normal:
+issues.forEach(issue => {
+  console.log(`If you have ${issue}, you should ${treatments[issue]}`)
+  
+  
+  Object iteration second method
+  fir (cibst )
+  
+})
+
 
 
 
