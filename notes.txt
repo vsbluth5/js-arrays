@@ -1,4 +1,4 @@
-/*
+
 First idea:
 nameOfList.forEach(myfunction)
 which is the same as
@@ -28,14 +28,12 @@ let issues = Object.keys(treatments)
 // Then, iterate as normal:
 issues.forEach(issue => {
   console.log(`If you have ${issue}, you should ${treatments[issue]}`)
+ }) 
   
   
   Object iteration second method
-  fir (cibst )
-  
-})
+  for (const key in nameOfObject){
+    console.log(`${key} has the value ${nameOfObject[key]}`)
+  }  
 
 
-
-
-*/
